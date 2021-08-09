@@ -8,7 +8,7 @@ public class PlacementManager : MonoBehaviour
 {
 
     public ARRaycastManager raymanager;
-    public GameObject PointerObj;
+    private GameObject PointerObj;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,7 @@ public class PlacementManager : MonoBehaviour
     void Update()
     {
         List<ARRaycastHit> hitpoint = new List<ARRaycastHit>();
-        raymanager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hitpoint, TrackableType.Planes);
+        raymanager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hitpoint, TrackableType.PlaneEstimated);
         if (hitpoint.Count > 0)
         {
             transform.position = hitpoint[0].pose.position;
