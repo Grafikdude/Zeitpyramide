@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibraryQR
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5759494785419971739
+  m_GuidHigh: 9173558015209128068
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4712903464113568374
+      m_GuidHigh: 11993654897455847845
+    m_SerializedTextureGuid:
+      m_GuidLow: 4874120620400208881
+      m_GuidHigh: 13138646519568036777
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: frame
+    m_Texture: {fileID: 2800000, guid: 4b5c6bf15ae143a4a97346e465d955b6, type: 3}
